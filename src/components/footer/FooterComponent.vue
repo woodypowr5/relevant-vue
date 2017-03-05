@@ -23,7 +23,8 @@
 <style lang="less">
   .footer-component{
     position: relative;
+    min-height: 10em;
     min-height: 4em;
-    background-color: gray;
+    background-color: #DDD;
   }
 </style>

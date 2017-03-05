@@ -1,5 +1,5 @@
 <template>
-  <div class="main-component">
+  <div class="main-component container">
     <router-view></router-view>
   </div>      
 </template>
@@ -39,7 +39,6 @@
 </script>
 <style lang="less">
     .main-component{
-      padding: 2em;
       background-color: #EEE;
     }
 </style>

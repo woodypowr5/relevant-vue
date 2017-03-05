@@ -24,12 +24,8 @@
 </script>
 
 <!--Global styles-->
-<style lang="less">
-  /*@import './../assets/appGlobal.less';*/
-  .app-root{
-    /*.centered;*/
-    /*position: relative;*/
-  }
+<style lang="scss">
+  
   
 </style>
 
