@@ -12,6 +12,7 @@
     "test": "npm run unit && npm run e2e"
   },
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "bulma": "^0.3.2",
     "less": "^2.7.2",
     "less-loader": "^2.2.3",

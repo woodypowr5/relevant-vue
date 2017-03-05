@@ -1,5 +1,5 @@
 <template>
-    <div class="navigation-wrapper">
+    <div class="navigation-wrapper nav">
       <div class="navigation-link column" v-bind:class="{ active: activeView === 'home' }" @click="setActiveView('home')">Home</div>
       <div class="navigation-link column" v-bind:class="{ active: activeView === 'about' }" @click="setActiveView('profile')">Profile</div>
       <div class="navigation-link column" v-bind:class="{ active: activeView === 'work' }" @click="setActiveView('matches')">Matches</div>
