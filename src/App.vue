@@ -1,23 +1,35 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view></router-view>
-  </div>
+  <div class="app-root">
+    <header-component></header-component>
+    <main-component> </main-component>
+    <footer-component></footer-component>
+  </div>  
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+
+  import HeaderComponent from './components/header/HeaderComponent.vue'
+  import MainComponent from './components/main/MainComponent.vue'
+  import FooterComponent from './components/footer/FooterComponent.vue'
+  // import * as services from '../services'
+  // import * as store from '../store/store.js'
+  
+  export default {
+    components: {
+      HeaderComponent,
+      MainComponent,
+      FooterComponent
+    }
+  }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<!--Global styles-->
+<style lang="less">
+  /*@import './../assets/appGlobal.less';*/
+  .app-root{
+    /*.centered;*/
+    /*position: relative;*/
+  }
+  
 </style>
+
