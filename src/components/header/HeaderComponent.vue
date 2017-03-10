@@ -1,7 +1,10 @@
 <template>
-    <div class="header container">
-	    <logo-component></logo-component>
-      	<navigation-component></navigation-component>
+    <div class="header">
+      <div class="nav container">
+
+  	    <logo-component></logo-component>
+        <navigation-component></navigation-component>
+      </div>
     </div>
 </template>
 
@@ -20,8 +23,11 @@
   	}
 </script>
 <style lang="less">
-	.header-component{
-		// min-height: 4em;
+	.header{
 		background-color: #CCC;
-	}
+  }
+  .nav{
+    background-color: inherit;
+    justify-content: space-between;
+  }
 </style>
