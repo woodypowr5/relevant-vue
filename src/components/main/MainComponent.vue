@@ -39,7 +39,6 @@
 </script>
 <style lang="less">
     .main-component{
-      // background-color: #EEE;
-      min-height: 20em;
+      background-color: #EEE;
     }
 </style>
